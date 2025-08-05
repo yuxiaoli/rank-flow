@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ranked Resume Data Schema",
+  "description": "Schema for ranked resume evaluation data containing file metadata, extracted text, scoring, and assessment information",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "file_path": {
+        "type": "string",
+        "description": "Relative path to the resume file"
+      },
+      "file_name": {
+        "type": "string",
+        "description": "Name of the resume file"
+      },
+      "file_extension": {
+        "type": "string",
+        "description": "File extension (e.g., .pdf, .docx)",
+        "pattern": "^\\.[a-zA-Z0-9]+$"
+      },
+      "file_size_bytes": {
+        "type": "integer",
+        "description": "File size in bytes",
+        "minimum": 0
+      },
+      "extracted_text": {
+        "type": "string",
+        "description": "Text content extracted from the resume file"
+      },
+      "processing_status": {
+        "type": "string",
+        "description": "Status of the resume processing",
+        "enum": ["success", "error", "pending"]
+      },
+      "error_message": {
+        "type": "string",
+        "description": "Error message if processing failed, empty string if successful"
+      },
+      "score": {
+        "type": "integer",
+        "description": "Overall numerical score for the resume"
+      },
+      "score_details": {
+        "type": "string",
+        "description": "JSON string containing detailed scoring breakdown by evaluation criteria"
+      },
+      "recommendation": {
+        "type": "string",
+        "description": "Hiring recommendation based on evaluation",
+        "enum": ["accept", "consider", "reject", "manual_review"]
+      },
+      "overall_assessment": {
+        "type": "string",
+        "description": "Summary assessment of the candidate's qualifications and fit for the role"
+      }
+    },
+    "required": [
+      "file_path",
+      "file_name",
+      "file_extension",
+      "file_size_bytes",
+      "extracted_text",
+      "processing_status",
+      "error_message",
+      "score",
+      "score_details",
+      "recommendation",
+      "overall_assessment"
+    ],
+    "additionalProperties": false
+  }
+}

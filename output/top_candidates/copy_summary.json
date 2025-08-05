@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "min_score": null,
+    "num_top": 5
+  },
+  "total_qualified": 5,
+  "copied_successfully": 5,
+  "failed_to_copy": 0,
+  "copied_files": [
+    {
+      "original_path": "temp\\resumes\\第一批\\BernardCV2022.pdf",
+      "score": 577.5,
+      "recommendation": "consider"
+    },
+    {
+      "original_path": "temp\\resumes\\外籍人员\\Rami CV 2024 - v3.pdf",
+      "score": 575,
+      "recommendation": "accept"
+    },
+    {
+      "original_path": "temp\\resumes\\第五批\\William CV.pdf",
+      "score": 575,
+      "recommendation": "reject"
+    },
+    {
+      "original_path": "temp\\resumes\\第三批\\Eva Law 2025 CV .pdf",
+      "score": 540,
+      "recommendation": "接受"
+    },
+    {
+      "original_path": "temp\\resumes\\第五批\\Terry Chan - Cover Letter + CV - May 2025.pdf",
+      "score": 535,
+      "recommendation": "接受"
+    }
+  ]
+}

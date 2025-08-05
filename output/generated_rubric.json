@@ -1,0 +1,186 @@
+{
+  "criteria": {
+    "国际组织建设与运营管理": {
+      "weight": 0.25,
+      "description": "负责GTI等国际组织的战略规划、实体管理、平台运营及会员管理",
+      "scoring": {
+        "excellent": {
+          "score": 90,
+          "description": "高效推动国际组织战略目标超额完成，建立创新性运营机制，会员规模增长30%以上"
+        },
+        "good": {
+          "score": 75,
+          "description": "有效落实运营计划，会员招募达标且平台运行稳定"
+        },
+        "fair": {
+          "score": 60,
+          "description": "完成基础运营管理，存在局部改进空间"
+        },
+        "poor": {
+          "score": 40,
+          "description": "运营执行存在重大疏漏，会员流失率超15%"
+        },
+        "none": {
+          "score": 20,
+          "description": "未履行任何组织建设职责"
+        }
+      }
+    },
+    "区域产业活动运营": {
+      "weight": 0.2,
+      "description": "统筹香港/亚太/一带一路区域的国际大会及研讨会",
+      "scoring": {
+        "excellent": {
+          "score": 90,
+          "description": "成功举办5场以上高规格活动，参会企业超200家，媒体曝光量破千万"
+        },
+        "good": {
+          "score": 75,
+          "description": "按计划完成年度活动，参与企业达150家"
+        },
+        "fair": {
+          "score": 60,
+          "description": "完成基础场次但影响力未达预期"
+        },
+        "poor": {
+          "score": 40,
+          "description": "活动组织混乱或参与度低于50%"
+        },
+        "none": {
+          "score": 20,
+          "description": "未举办任何区域活动"
+        }
+      }
+    },
+    "国际合作拓展": {
+      "weight": 0.2,
+      "description": "开拓国际运营商及产业伙伴合作网络",
+      "scoring": {
+        "excellent": {
+          "score": 90,
+          "description": "建立10+战略合作伙伴关系，促成3+跨境合作项目落地"
+        },
+        "good": {
+          "score": 75,
+          "description": "完成8个合作意向签约，推动重点市场渗透"
+        },
+        "fair": {
+          "score": 60,
+          "description": "达成基础合作目标但缺乏突破性进展"
+        },
+        "poor": {
+          "score": 40,
+          "description": "合作数量未达年度指标50%"
+        },
+        "none": {
+          "score": 20,
+          "description": "未开展任何合作拓展工作"
+        }
+      }
+    },
+    "产业峰会策划经验": {
+      "weight": 0.15,
+      "description": "大型产业峰会策划及核心材料撰写能力",
+      "scoring": {
+        "excellent": {
+          "score": 90,
+          "description": "主导策划行业标杆级峰会，演讲稿被权威媒体转载"
+        },
+        "good": {
+          "score": 75,
+          "description": "独立完成3+场次内容策划，材料质量获高管认可"
+        },
+        "fair": {
+          "score": 60,
+          "description": "协助完成策划工作，内容符合基本要求"
+        },
+        "poor": {
+          "score": 40,
+          "description": "策划方案多次被退回修改，材料存在重大缺陷"
+        },
+        "none": {
+          "score": 20,
+          "description": "无峰会策划相关经验"
+        }
+      }
+    },
+    "技术领域专业知识": {
+      "weight": 0.1,
+      "description": "移动通信/AI/云计算/芯片等领域专业背景",
+      "scoring": {
+        "excellent": {
+          "score": 90,
+          "description": "在2+核心技术领域有主导级项目经验"
+        },
+        "good": {
+          "score": 75,
+          "description": "在优先领域有3年以上深度从业经验"
+        },
+        "fair": {
+          "score": 60,
+          "description": "具备基础行业知识但缺乏实操经验"
+        },
+        "poor": {
+          "score": 40,
+          "description": "仅掌握非核心技术领域的浅层知识"
+        },
+        "none": {
+          "score": 20,
+          "description": "完全不具备相关技术背景"
+        }
+      }
+    },
+    "沟通协调能力": {
+      "weight": 0.05,
+      "description": "跨文化沟通及多方利益协调能力",
+      "scoring": {
+        "excellent": {
+          "score": 90,
+          "description": "成功协调10+国家/地区利益相关方达成共识"
+        },
+        "good": {
+          "score": 75,
+          "description": "有效处理多部门协作需求，冲突解决率达90%"
+        },
+        "fair": {
+          "score": 60,
+          "description": "完成常规沟通协调任务"
+        },
+        "poor": {
+          "score": 40,
+          "description": "沟通失误导致项目延期或合作方投诉"
+        },
+        "none": {
+          "score": 20,
+          "description": "无法有效开展基础沟通工作"
+        }
+      }
+    },
+    "其他任务完成度": {
+      "weight": 0.05,
+      "description": "领导交办专项任务的执行质量",
+      "scoring": {
+        "excellent": {
+          "score": 90,
+          "description": "超额完成附加任务并产生显著附加价值"
+        },
+        "good": {
+          "score": 75,
+          "description": "高质量按时完成指定任务"
+        },
+        "fair": {
+          "score": 60,
+          "description": "按时完成但质量仅达基准要求"
+        },
+        "poor": {
+          "score": 40,
+          "description": "任务完成率不足50%"
+        },
+        "none": {
+          "score": 20,
+          "description": "完全未执行任何附加任务"
+        }
+      }
+    }
+  }
+}

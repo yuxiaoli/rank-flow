@@ -1,0 +1,12 @@
+curl --location --request POST 'https://ncoa-uat.cmitry.com/gateway/llm-subscribe/v1/chat/completions' \
+--header 'Authorization: Bearer 9f6cd779-43d2-7857-3080-8f8c425d86c9' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "stream": false,
+    "messages": [
+    {"role":"system", "content":"你是一个助手"},
+    {
+        "role": "user",
+        "content": "你是什么模型"
+    }]
+}'
